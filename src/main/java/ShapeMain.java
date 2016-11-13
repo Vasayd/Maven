@@ -11,7 +11,7 @@ public class ShapeMain {
         Square square2 = new Square("square2", 2);
         aListShapes.add("Площадь: " + square2.getArea() + " Фигура: " + square2.getName());
 
-        Square square3 = new Square("square3", 172);
+        Square square3 = new Square("square3", 172) ;
         aListShapes.add("Площадь: " + square3.getArea() + " Фигура: " + square3.getName());
 
         Triangle triangle1 = new Triangle("triangle1", 1.0, 10.0, 20.1, 3.2, 4.8, 5.8);
