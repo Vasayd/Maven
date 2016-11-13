@@ -37,13 +37,13 @@ public class ShapeMain {
                 triangle2.getArea() + triangle2.getName(), rectangle1.getArea() + rectangle1.getName(), rectangle2.getArea() + rectangle2.getName(), circle1.getArea() + circle1.getName(), circle2.getArea() + circle2.getName()};
 
         // System.out.println(Arrays.toString(array1));
-       // Arrays.sort(array1); // add new comparator
+        // Arrays.sort(array1); // add new comparator
 
 
-         Collections.sort(aListShapes);
+        Collections.sort(aListShapes);
 
 
-        System.out.println("Наибольшая фигура: "+Collections.max(aListShapes));
+        System.out.println("Наибольшая фигура: " + Collections.max(aListShapes));
 
         //System.out.println(Arrays.toString(array1));
         //System.out.printf("%s %s", aListShapes[List.lenght - 1], aListShapes[aListShapes.List.lenght - 2]);
